@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+        name: myfirstpod
+        namespace: myfirstkube
+        labels:
+               app: mykube
+spec:
+        containers:
+        - name: myfirstpod
+          image: nginx
+
+

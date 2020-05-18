@@ -1,0 +1,83 @@
+apiVersion: v1
+entries:
+  graylog:
+  - apiVersion: v1
+    appVersion: "3.1"
+    created: "2020-02-19T13:04:51.712899449Z"
+    description: Graylog is the centralized log management solution built to open
+      standards for capturing, storing, and enabling real-time analysis of terabytes
+      of machine data.
+    digest: c04b548dc8e70d3ffd04a72b3ca0c76f40c38549069ea2b7324ea5150ed634d0
+    home: https://www.graylog.org
+    icon: https://global-uploads.webflow.com/5a218ef7897bf400019e2f16/5a218ef7897bf400019e2f60_logo-graylog.png
+    keywords:
+    - graylog
+    - logs
+    - syslog
+    - gelf
+    maintainers:
+    - email: goonohc@gmail.com
+      name: KongZ
+    name: graylog
+    sources:
+    - https://www.graylog.org
+    urls:
+    - graylog-1.5.5.tgz
+    version: 1.5.5
+  jenkins:
+  - apiVersion: v1
+    appVersion: lts
+    created: "2020-02-19T13:04:51.719927721Z"
+    description: Open source continuous integration server. It supports multiple SCM
+      tools including CVS, Subversion and Git. It can execute Apache Ant and Apache
+      Maven-based projects as well as arbitrary scripts.
+    digest: e900c18c85250f682514e6721aa9d9d33326b72ae36f62adcad9283fb2705b62
+    home: https://jenkins.io/
+    icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png
+    maintainers:
+    - email: lachlan.evenson@microsoft.com
+      name: lachie83
+    - email: viglesias@google.com
+      name: viglesiasce
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    - email: garridomota@gmail.com
+      name: mogaal
+    name: jenkins
+    sources:
+    - https://github.com/jenkinsci/jenkins
+    - https://github.com/jenkinsci/docker-jnlp-slave
+    - https://github.com/maorfr/kube-tasks
+    - https://github.com/jenkinsci/configuration-as-code-plugin
+    urls:
+    - jenkins-1.9.17.tgz
+    version: 1.9.17
+  wordpress:
+  - apiVersion: v1
+    appVersion: 5.3.2
+    created: "2020-02-19T13:04:51.722857129Z"
+    description: MY charts
+    digest: acf6588999b6701d02fccbe3798bbcdddae826cdd5ca238ca793189ad054b7e5
+    engine: gotpl
+    home: http://www.wordpress.com/
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - wordpress
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    urls:
+    - wordpress-8.1.2.tgz
+    version: 8.1.2
+generated: "2020-02-19T13:04:51.705658084Z"
